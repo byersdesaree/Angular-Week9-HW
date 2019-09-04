@@ -3,7 +3,7 @@
     <div class="col-md-6">
         <ul class="list-group">
             <li *ngFor="let m of movies; let i=index" 
-            [class.selected]="movies === movieBeingDisplayed"
+            [class.active]="m === movieBeingDisplayed"
             class="list-group-item">
                 <div class="row">
                     <div class="col-md-6">
